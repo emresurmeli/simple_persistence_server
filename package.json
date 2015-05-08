@@ -1,0 +1,28 @@
+{
+  "name": "simple_persistence_server",
+  "version": "1.0.0",
+  "description": "simple persistence layer",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emresurmeli/simple_persistence_server.git"
+  },
+  "author": "s.emre.s.8@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emresurmeli/simple_persistence_server/issues"
+  },
+  "homepage": "https://github.com/emresurmeli/simple_persistence_server",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.2.4"
+  }
+}
