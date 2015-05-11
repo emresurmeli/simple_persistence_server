@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
 		jshint: {
 			dev:{
-				src: ['Gruntfile.js', 'server.js', 'test/*.js']
+				src: ['Gruntfile.js', 'lib/*.js', 'test/*.js']
 			},
 			options: {
 				jshintrc: true
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
-			files: ['test/*.js', 'server.js', 'Gruntfile.js'],
+			files: ['test/*.js', 'lib/*.js', 'Gruntfile.js'],
 			tasks: ['jshint:dev', 'simplemocha:dev']
 		}
 	});
