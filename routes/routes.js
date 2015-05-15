@@ -69,7 +69,7 @@ module.exports = function(router) {
 		fs.readFile(filePath, function(err, data) {
 			var user = JSON.parse(data);
 			if(req.body.title) {
-				console.log('')
+				console.log('');
 			}
 		});
 	});
