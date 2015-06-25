@@ -24,10 +24,10 @@ module.exports = function(router) {
 
 	// POST
 	router.post('/users', function(req, res) {
-		
+
 		var newUser = {
-			name: req.body.name,
-			age: req.body.age
+			name: res.body.name,
+			age: res.body.age
 		};
 
 		var stringifyUser = JSON.stingify(newUser);
@@ -85,8 +85,3 @@ module.exports = function(router) {
 		});
 	});
 };
-
-
-
-
-
