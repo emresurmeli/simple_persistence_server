@@ -27,10 +27,9 @@ module.exports = function(router) {
 
 		var newUser = {
 			name: res.body.name,
-			age: res.body.age
 		};
 
-		var stringifyUser = JSON.stingify(newUser);
+		var stringifyUser = JSON.stingify(newUser.name);
 		var fileId;
 
 		fs.readdir('./data/', function(err, files) {

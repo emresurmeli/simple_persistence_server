@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
-			files: ['test/*.js', 'lib/*.js', 'Gruntfile.js', 'server.js', 'routes/*.js'],
+			files: ['tests/*.js', 'lib/*.js', 'Gruntfile.js', 'server.js', 'routes/*.js'],
 			tasks: ['jshint:dev', 'simplemocha:dev']
 		}
 	});
